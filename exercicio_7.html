@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        <link rel="stylesheet" type="text/css" href="css_pag.css" />
+    </head>
+    <body>
+        <center>
+        <script type="text/JavaScript">
+            function fazer_tabuada(n) 
+            {
+                alert("Você escolheu o numero, " + n);
+                for (i = 1; i <= 10; i++)
+                {
+                    document.write( i + "*" + n + "=" + (i*n));
+                    document.write("<br>")
+                }
+            }
+            var numero = prompt("Digite aqui sue número:");
+            parseInt(numero);
+            fazer_tabuada(numero);
+        
+        </script>
+            <a href="lista.html"><h2>Voltar para a pagina da Lista</h2></a>
+        </center>
+    </body>
+</html>
